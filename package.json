@@ -1,0 +1,40 @@
+{
+  "name": "prose-mirror-react-tooltip",
+  "version": "1.0.0",
+  "description": "General purpose ProseMirror tooltip using React",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-herbert/prose-mirror-react-tooltip.git"
+  },
+  "keywords": [
+    "ProseMirror",
+    "React",
+    "tooltip"
+  ],
+  "author": "Peter Herbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p-herbert/prose-mirror-react-tooltip/issues"
+  },
+  "homepage": "https://github.com/p-herbert/prose-mirror-react-tooltip#readme",
+  "dependencies": {
+    "prosemirror-state": "^1.2.2",
+    "prosemirror-view": "^1.5.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
