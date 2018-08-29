@@ -62,7 +62,7 @@ const {
     plugin: mentions,
     getPluginState: getMentionsState,
     closePlugin: closeMentionsPlugin,
-    } = createPlugin({ className: 'mention', matcher, DropdownWrapper: MentionDropdownWrapper });
+} = createPlugin({ className: 'mention', matcher, DropdownWrapper: MentionDropdownWrapper });
 ```
 
 # Acknowledgments
