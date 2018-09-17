@@ -15,7 +15,7 @@ dist
 
 # Environment variables #
 #########################
-.env.example
+.env
 
 # Compiled source #
 ###################
